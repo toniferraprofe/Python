@@ -94,3 +94,9 @@ print(tupla01.index('FINAL'))
 
 # Contar cuantas veces se repite un elemento
 print(tupla01.count('Viernes'))
+
+# Copiar el contenido de una Tupla a una Lista
+nuevaLista = list(tupla01)
+
+# Copiar contenido de una Lista a una Tupla
+nuevaTupla = tuple(grupo)
